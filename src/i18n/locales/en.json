@@ -1,0 +1,173 @@
+{
+    "app": {
+        "name": "iMaclean",
+        "tagline": "The intelligent cleaning assistant for your Mac"
+    },
+    "nav": {
+        "dashboard": "Dashboard",
+        "trash": "Trash",
+        "cache": "Cache",
+        "downloads": "Downloads",
+        "logs": "System Logs",
+        "apps": "Residual Apps",
+        "largeFiles": "Large Files",
+        "settings": "Settings"
+    },
+    "dashboard": {
+        "title": "Dashboard",
+        "subtitle": "Keep your Mac clean and optimized",
+        "storage": "Storage",
+        "availableOf": "{{available}} available of {{total}}",
+        "statistics": "Statistics",
+        "quickActions": "Quick Actions",
+        "stats": {
+            "spaceRecovered": "Space Recovered",
+            "filesCleaned": "Files Cleaned",
+            "cleaningsPerformed": "Cleanings Performed",
+            "recoverableSpace": "Recoverable Space",
+            "historicTotal": "Historic total",
+            "completeHistory": "Complete history",
+            "availableNow": "Available now"
+        },
+        "actions": {
+            "trash": {
+                "title": "Trash",
+                "description": "Empty the system trash"
+            },
+            "cache": {
+                "title": "Cache",
+                "description": "Clean temporary files"
+            },
+            "downloads": {
+                "title": "Downloads",
+                "description": "Review old files"
+            },
+            "logs": {
+                "title": "Logs",
+                "description": "Clean system logs"
+            }
+        },
+        "elements": "elements"
+    },
+    "cleaning": {
+        "trash": {
+            "title": "Trash",
+            "description": "Deleted files waiting to be permanently removed"
+        },
+        "cache": {
+            "title": "User Cache",
+            "description": "Temporary application files that can be regenerated"
+        },
+        "downloads": {
+            "title": "Downloads",
+            "description": "Downloaded files you might not need",
+            "warning": "Review these files before deleting"
+        },
+        "logs": {
+            "title": "System Logs",
+            "description": "System log and diagnostic files",
+            "warning": "Requires administrator permissions"
+        },
+        "apps": {
+            "title": "Residual Apps",
+            "description": "Files from applications that are no longer installed"
+        },
+        "largeFiles": {
+            "title": "Large Files",
+            "description": "Files that take up the most space on your disk",
+            "warning": "Review carefully before deleting"
+        },
+        "selectAll": "Select all",
+        "deselectAll": "Deselect all",
+        "selectedOf": "{{selected}} of {{total}} selected",
+        "sizeOf": "{{selectedSize}} of {{totalSize}}",
+        "emptyState": {
+            "title": "No items",
+            "message": "Your {{category}} is clean"
+        },
+        "terminalCommands": "Terminal Commands",
+        "copy": "Copy",
+        "copied": "Copied",
+        "cleanSelected": "Clean selected ({{size}})"
+    },
+    "settings": {
+        "title": "Settings",
+        "subtitle": "Customize iMaclean to your liking",
+        "appearance": "Appearance",
+        "theme": "Theme",
+        "themeDescription": "Choose how iMaclean looks",
+        "light": "Light",
+        "dark": "Dark",
+        "system": "System",
+        "totalStats": "Total Statistics",
+        "spaceFreed": "Space freed",
+        "filesCleaned": "Files cleaned",
+        "cleaningHistory": "Cleaning History",
+        "noHistory": "No cleaning history",
+        "files": "files",
+        "about": "About",
+        "version": "v2.0.0",
+        "aboutDescription": "The intelligent and secure cleaning assistant for your Mac. Keep your system optimized with visual tools and safe terminal commands.",
+        "github": "GitHub",
+        "moreInfo": "More information",
+        "language": "Language",
+        "languageDescription": "Select your preferred language",
+        "scheduledCleanings": "Scheduled Cleanings",
+        "scheduledDescription": "Configure automatic cleanings",
+        "addSchedule": "Add schedule",
+        "noSchedules": "No scheduled cleanings"
+    },
+    "welcome": {
+        "title": "Welcome to iMaclean",
+        "subtitle": "Your intelligent and secure cleaning assistant for Mac. Recover disk space visually and controlled.",
+        "feature1Title": "100% Secure",
+        "feature1Text": "We never access your files. You control everything.",
+        "feature2Title": "Transparent",
+        "feature2Text": "Visible commands that you copy and execute yourself.",
+        "warning": "⚠️ Important: Always review commands before executing them in your Terminal. The final responsibility is yours.",
+        "start": "Get Started"
+    },
+    "notifications": {
+        "scanComplete": "Scan complete",
+        "foundElements": "Found {{count}} elements",
+        "noSelection": "No selection",
+        "selectItems": "Select the items you want to clean",
+        "cleaningComplete": "Cleaning complete!",
+        "freedSpace": "Freed {{size}}"
+    },
+    "schedule": {
+        "title": "Schedule Cleaning",
+        "category": "Category",
+        "frequency": "Frequency",
+        "daily": "Daily",
+        "weekly": "Weekly",
+        "monthly": "Monthly",
+        "time": "Time",
+        "enabled": "Enabled",
+        "save": "Save",
+        "cancel": "Cancel",
+        "delete": "Delete"
+    },
+    "storage": {
+        "apps": "Applications",
+        "documents": "Documents",
+        "system": "System",
+        "other": "Other",
+        "available": "Available",
+        "used": "used",
+        "free": "free"
+    },
+    "time": {
+        "justNow": "Just now",
+        "minutesAgo": "{{count}} minute ago",
+        "minutesAgo_plural": "{{count}} minutes ago",
+        "hoursAgo": "{{count}} hour ago",
+        "hoursAgo_plural": "{{count}} hours ago",
+        "daysAgo": "{{count}} day ago",
+        "daysAgo_plural": "{{count}} days ago",
+        "weeksAgo": "{{count}} week ago",
+        "weeksAgo_plural": "{{count}} weeks ago",
+        "monthsAgo": "{{count}} month ago",
+        "monthsAgo_plural": "{{count}} months ago"
+    }
+}

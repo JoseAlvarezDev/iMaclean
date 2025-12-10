@@ -1,0 +1,99 @@
+.dashboard {
+    flex: 1;
+    padding: var(--spacing-xl);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+/* Header */
+.dashboard-header {
+    margin-bottom: var(--spacing-xl);
+}
+
+.dashboard-header-content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-xs);
+}
+
+.dashboard-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--text-primary);
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    letter-spacing: -0.02em;
+}
+
+.dashboard-title-icon {
+    color: var(--accent-blue);
+}
+
+.dashboard-subtitle {
+    font-size: 15px;
+    color: var(--text-secondary);
+}
+
+/* Sections */
+.dashboard-section {
+    margin-bottom: var(--spacing-xl);
+}
+
+.section-header {
+    display: flex;
+    align-items: baseline;
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-md);
+}
+
+.section-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--text-primary);
+    letter-spacing: -0.01em;
+}
+
+.section-subtitle {
+    font-size: 13px;
+    color: var(--text-tertiary);
+}
+
+/* Storage Overview */
+.storage-overview {
+    background: var(--bg-elevated);
+    border-radius: var(--radius-xl);
+    padding: var(--spacing-lg);
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow-sm);
+}
+
+/* Stats Grid */
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: var(--spacing-md);
+}
+
+/* Quick Actions Grid */
+.quick-actions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: var(--spacing-md);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .dashboard {
+        padding: var(--spacing-md);
+    }
+
+    .dashboard-title {
+        font-size: 24px;
+    }
+
+    .stats-grid,
+    .quick-actions-grid {
+        grid-template-columns: 1fr;
+    }
+}

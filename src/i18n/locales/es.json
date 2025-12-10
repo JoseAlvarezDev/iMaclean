@@ -1,0 +1,173 @@
+{
+    "app": {
+        "name": "iMaclean",
+        "tagline": "El asistente de limpieza inteligente para tu Mac"
+    },
+    "nav": {
+        "dashboard": "Dashboard",
+        "trash": "Papelera",
+        "cache": "Caché",
+        "downloads": "Descargas",
+        "logs": "Logs del Sistema",
+        "apps": "Apps Residuales",
+        "largeFiles": "Archivos Grandes",
+        "settings": "Ajustes"
+    },
+    "dashboard": {
+        "title": "Dashboard",
+        "subtitle": "Mantén tu Mac limpio y optimizado",
+        "storage": "Almacenamiento",
+        "availableOf": "{{available}} disponibles de {{total}}",
+        "statistics": "Estadísticas",
+        "quickActions": "Acciones Rápidas",
+        "stats": {
+            "spaceRecovered": "Espacio Recuperado",
+            "filesCleaned": "Archivos Limpiados",
+            "cleaningsPerformed": "Limpiezas Realizadas",
+            "recoverableSpace": "Espacio Recuperable",
+            "historicTotal": "Total histórico",
+            "completeHistory": "Historial completo",
+            "availableNow": "Disponible ahora"
+        },
+        "actions": {
+            "trash": {
+                "title": "Papelera",
+                "description": "Vacía la papelera del sistema"
+            },
+            "cache": {
+                "title": "Caché",
+                "description": "Limpia archivos temporales"
+            },
+            "downloads": {
+                "title": "Descargas",
+                "description": "Revisa archivos antiguos"
+            },
+            "logs": {
+                "title": "Logs",
+                "description": "Limpia registros del sistema"
+            }
+        },
+        "elements": "elementos"
+    },
+    "cleaning": {
+        "trash": {
+            "title": "Papelera",
+            "description": "Archivos eliminados esperando a ser borrados permanentemente"
+        },
+        "cache": {
+            "title": "Caché de Usuario",
+            "description": "Archivos temporales de aplicaciones que pueden regenerarse"
+        },
+        "downloads": {
+            "title": "Descargas",
+            "description": "Archivos descargados que podrían no necesitar",
+            "warning": "Revisa estos archivos antes de eliminarlos"
+        },
+        "logs": {
+            "title": "Logs del Sistema",
+            "description": "Archivos de registro y diagnóstico del sistema",
+            "warning": "Requiere permisos de administrador"
+        },
+        "apps": {
+            "title": "Apps Residuales",
+            "description": "Archivos de aplicaciones que ya no están instaladas"
+        },
+        "largeFiles": {
+            "title": "Archivos Grandes",
+            "description": "Archivos que ocupan más espacio en tu disco",
+            "warning": "Revisa cuidadosamente antes de eliminar"
+        },
+        "selectAll": "Seleccionar todo",
+        "deselectAll": "Deseleccionar todo",
+        "selectedOf": "{{selected}} de {{total}} seleccionados",
+        "sizeOf": "{{selectedSize}} de {{totalSize}}",
+        "emptyState": {
+            "title": "No hay elementos",
+            "message": "Tu {{category}} está limpia"
+        },
+        "terminalCommands": "Comandos de Terminal",
+        "copy": "Copiar",
+        "copied": "Copiado",
+        "cleanSelected": "Limpiar seleccionados ({{size}})"
+    },
+    "settings": {
+        "title": "Ajustes",
+        "subtitle": "Personaliza iMaclean a tu gusto",
+        "appearance": "Apariencia",
+        "theme": "Tema",
+        "themeDescription": "Elige cómo se ve iMaclean",
+        "light": "Claro",
+        "dark": "Oscuro",
+        "system": "Sistema",
+        "totalStats": "Estadísticas Totales",
+        "spaceFreed": "Espacio liberado",
+        "filesCleaned": "Archivos limpiados",
+        "cleaningHistory": "Historial de Limpiezas",
+        "noHistory": "No hay historial de limpiezas",
+        "files": "archivos",
+        "about": "Acerca de",
+        "version": "v2.0.0",
+        "aboutDescription": "El asistente de limpieza inteligente y seguro para tu Mac. Mantén tu sistema optimizado con herramientas visuales y comandos de terminal seguros.",
+        "github": "GitHub",
+        "moreInfo": "Más información",
+        "language": "Idioma",
+        "languageDescription": "Selecciona tu idioma preferido",
+        "scheduledCleanings": "Limpiezas Programadas",
+        "scheduledDescription": "Configura limpiezas automáticas",
+        "addSchedule": "Añadir programación",
+        "noSchedules": "No hay limpiezas programadas"
+    },
+    "welcome": {
+        "title": "Bienvenido a iMaclean",
+        "subtitle": "Tu asistente de limpieza inteligente y seguro para Mac. Recupera espacio en disco de forma visual y controlada.",
+        "feature1Title": "100% Seguro",
+        "feature1Text": "Nunca accedemos a tus archivos. Tú controlas todo.",
+        "feature2Title": "Transparente",
+        "feature2Text": "Comandos visibles que copias y ejecutas tú mismo.",
+        "warning": "⚠️ Importante: Revisa siempre los comandos antes de ejecutarlos en tu Terminal. La responsabilidad final es tuya.",
+        "start": "Comenzar"
+    },
+    "notifications": {
+        "scanComplete": "Escaneo completado",
+        "foundElements": "Se encontraron {{count}} elementos",
+        "noSelection": "Sin selección",
+        "selectItems": "Selecciona los elementos que deseas limpiar",
+        "cleaningComplete": "¡Limpieza completada!",
+        "freedSpace": "Se liberaron {{size}}"
+    },
+    "schedule": {
+        "title": "Programar Limpieza",
+        "category": "Categoría",
+        "frequency": "Frecuencia",
+        "daily": "Diaria",
+        "weekly": "Semanal",
+        "monthly": "Mensual",
+        "time": "Hora",
+        "enabled": "Habilitada",
+        "save": "Guardar",
+        "cancel": "Cancelar",
+        "delete": "Eliminar"
+    },
+    "storage": {
+        "apps": "Aplicaciones",
+        "documents": "Documentos",
+        "system": "Sistema",
+        "other": "Otros",
+        "available": "Disponible",
+        "used": "usado",
+        "free": "libre"
+    },
+    "time": {
+        "justNow": "Hace un momento",
+        "minutesAgo": "Hace {{count}} minuto",
+        "minutesAgo_plural": "Hace {{count}} minutos",
+        "hoursAgo": "Hace {{count}} hora",
+        "hoursAgo_plural": "Hace {{count}} horas",
+        "daysAgo": "Hace {{count}} día",
+        "daysAgo_plural": "Hace {{count}} días",
+        "weeksAgo": "Hace {{count}} semana",
+        "weeksAgo_plural": "Hace {{count}} semanas",
+        "monthsAgo": "Hace {{count}} mes",
+        "monthsAgo_plural": "Hace {{count}} meses"
+    }
+}

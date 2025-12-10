@@ -1,0 +1,56 @@
+{
+    "name": "iMaclean",
+    "short_name": "iMaclean",
+    "author": "Jose Alvarez Dev",
+    "description": "El asistente de limpieza inteligente y seguro para tu Mac",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#000000",
+    "theme_color": "#007aff",
+    "orientation": "portrait-primary",
+    "categories": [
+        "utilities",
+        "productivity"
+    ],
+    "icons": [
+        {
+            "src": "/icons/logo_light.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "/icons/logo_dark.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ],
+    "screenshots": [],
+    "shortcuts": [
+        {
+            "name": "Limpiar Papelera",
+            "short_name": "Papelera",
+            "description": "Ir a la limpieza de papelera",
+            "url": "/?view=trash",
+            "icons": [
+                {
+                    "src": "/icons/logo_light.png",
+                    "sizes": "192x192"
+                }
+            ]
+        },
+        {
+            "name": "Limpiar Caché",
+            "short_name": "Caché",
+            "description": "Ir a la limpieza de caché",
+            "url": "/?view=cache",
+            "icons": [
+                {
+                    "src": "/icons/logo_light.png",
+                    "sizes": "192x192"
+                }
+            ]
+        }
+    ]
+}

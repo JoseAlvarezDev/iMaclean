@@ -1,0 +1,159 @@
+.quick-action-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-md);
+    padding: var(--spacing-lg);
+    background: var(--bg-elevated);
+    border-radius: var(--radius-xl);
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow-sm);
+    cursor: pointer;
+    text-align: left;
+    overflow: hidden;
+    transition: all var(--transition-normal);
+}
+
+.quick-action-card:hover {
+    border-color: var(--border-color-strong);
+    box-shadow: var(--shadow-lg);
+}
+
+.quick-action-header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.quick-action-icon {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--radius-lg);
+    transition: transform var(--transition-normal);
+}
+
+.quick-action-card:hover .quick-action-icon {
+    transform: scale(1.05);
+}
+
+.quick-action-arrow {
+    color: var(--text-tertiary);
+    transition: all var(--transition-fast);
+}
+
+.quick-action-card:hover .quick-action-arrow {
+    color: var(--text-secondary);
+    transform: translateX(4px);
+}
+
+/* Color Variants */
+.quick-action-card--blue .quick-action-icon {
+    background: linear-gradient(135deg, #007aff 0%, #5ac8fa 100%);
+    color: white;
+}
+
+.quick-action-card--green .quick-action-icon {
+    background: linear-gradient(135deg, #34c759 0%, #30d158 100%);
+    color: white;
+}
+
+.quick-action-card--orange .quick-action-icon {
+    background: linear-gradient(135deg, #ff9500 0%, #ffcc00 100%);
+    color: white;
+}
+
+.quick-action-card--red .quick-action-icon {
+    background: linear-gradient(135deg, #ff3b30 0%, #ff6b6b 100%);
+    color: white;
+}
+
+.quick-action-content {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    z-index: 1;
+}
+
+.quick-action-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--text-primary);
+    letter-spacing: -0.01em;
+}
+
+.quick-action-description {
+    font-size: 13px;
+    color: var(--text-secondary);
+    line-height: 1.4;
+}
+
+.quick-action-footer {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+    margin-top: auto;
+    z-index: 1;
+}
+
+.quick-action-size {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+}
+
+.quick-action-card--blue .quick-action-size {
+    color: var(--accent-blue);
+}
+
+.quick-action-card--green .quick-action-size {
+    color: var(--accent-green);
+}
+
+.quick-action-card--orange .quick-action-size {
+    color: var(--accent-orange);
+}
+
+.quick-action-card--red .quick-action-size {
+    color: var(--accent-red);
+}
+
+.quick-action-count {
+    font-size: 12px;
+    color: var(--text-tertiary);
+}
+
+/* Background Icon */
+.quick-action-bg-icon {
+    position: absolute;
+    right: -20px;
+    bottom: -20px;
+    opacity: 0.05;
+    transition: all var(--transition-normal);
+    pointer-events: none;
+}
+
+.quick-action-card:hover .quick-action-bg-icon {
+    opacity: 0.08;
+    transform: scale(1.1) rotate(5deg);
+}
+
+.quick-action-card--blue .quick-action-bg-icon {
+    color: var(--accent-blue);
+}
+
+.quick-action-card--green .quick-action-bg-icon {
+    color: var(--accent-green);
+}
+
+.quick-action-card--orange .quick-action-bg-icon {
+    color: var(--accent-orange);
+}
+
+.quick-action-card--red .quick-action-bg-icon {
+    color: var(--accent-red);
+}

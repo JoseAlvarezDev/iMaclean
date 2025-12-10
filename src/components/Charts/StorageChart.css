@@ -1,0 +1,143 @@
+.storage-chart {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-lg);
+}
+
+.storage-chart-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.storage-chart-center {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.storage-chart-percentage {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--text-primary);
+    letter-spacing: -0.02em;
+}
+
+.storage-chart-label {
+    font-size: 12px;
+    color: var(--text-tertiary);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+}
+
+/* Storage Bar (macOS style) */
+.storage-bar-container {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-sm);
+}
+
+.storage-bar {
+    height: 24px;
+    background: var(--chart-free);
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    display: flex;
+}
+
+.storage-bar-segment {
+    height: 100%;
+    transition: width var(--transition-slow);
+    position: relative;
+}
+
+.storage-bar-segment:first-child {
+    border-radius: var(--radius-md) 0 0 var(--radius-md);
+}
+
+.storage-bar-segment:last-child {
+    border-radius: 0 var(--radius-md) var(--radius-md) 0;
+}
+
+.storage-bar-segment:only-child {
+    border-radius: var(--radius-md);
+}
+
+.storage-bar-labels {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: var(--text-tertiary);
+}
+
+/* Legend */
+.chart-legend {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: var(--spacing-sm);
+}
+
+.chart-legend-item {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    padding: var(--spacing-sm);
+    border-radius: var(--radius-md);
+    transition: background var(--transition-fast);
+}
+
+.chart-legend-item:hover {
+    background: var(--overlay-light);
+}
+
+.chart-legend-color {
+    width: 12px;
+    height: 12px;
+    border-radius: 3px;
+    flex-shrink: 0;
+}
+
+.chart-legend-label {
+    flex: 1;
+    font-size: 13px;
+    color: var(--text-secondary);
+}
+
+.chart-legend-value {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+/* Tooltip */
+.chart-tooltip {
+    background: var(--bg-elevated);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    padding: var(--spacing-sm) var(--spacing-md);
+    box-shadow: var(--shadow-lg);
+}
+
+.chart-tooltip-label {
+    font-size: 12px;
+    color: var(--text-secondary);
+    margin-bottom: 2px;
+}
+
+.chart-tooltip-value {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .chart-legend {
+        grid-template-columns: 1fr 1fr;
+    }
+}
