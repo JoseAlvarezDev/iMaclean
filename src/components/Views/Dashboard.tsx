@@ -1,3 +1,4 @@
+// Dashboard - iMaclean v2.0.0
 import { motion } from 'framer-motion';
 import {
     Trash2,
